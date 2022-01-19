@@ -1,0 +1,5 @@
+Here are three dataset. Each of them includes a 'OK' and 'NOK' (= not ok) folders.
+'OK' include images labelled as fine
+'OK' include images labelled as broken
+
+RNGN19cross-folder has exactly 5X more data than RNGN19co-folder. The datasets seams to be augmented from RNGN19co (cropped)
