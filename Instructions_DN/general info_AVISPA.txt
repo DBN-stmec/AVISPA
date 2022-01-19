@@ -1,0 +1,23 @@
+general info
+
+keras with tensorflow backend
+
+architectures for classification: VGG16, Restnet50, Inception-V3, Xception
+
+transfer learning, pre-trained with ImageNet-data
+
+dimensions of fully connected layers are adjusted to fit two classes ('OK' = 'unverschlissen', 'NOK' = 'verschlissen')
+
+activation function: sigmoid function
+
+dropout-layer for each fully connected layer with p = 0.5 (overfit prevention)
+
+! dimensionality reduction of fully connected layers to 168x168 and output to 2048 and 1024 for VGG16 due to hardware restrictions !
+
+training in epoches, preparation (random augmentation) -> resized -> trained
+2 part training: 
+1. warum up: training of fully-connected layers for 10 epoches (since they are initialised randomly and adjusted during warm up)
+2. first 25% of layers are frozen to initialise with ImageNet-weights but allow adjustment during train phase
+
+optimisation with ADAM algorithm (alpha = 0.00001 learning rate)
+

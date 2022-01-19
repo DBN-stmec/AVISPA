@@ -1,0 +1,11 @@
+#########################################################
+How the training process internally works:
+#########################################################
+The resposible file for training is AVISPA/TestCase/train.py
+All the available model-codes are stored in the AVISPA/TestCase/classify/models/keras folder.
+Training-hyperparameters (epoch, learning rate, etc.) are stored in AVISPA/TestCase/config.py
+In TestCase/train_classification.sh:
+
+1) Training Dataset (DATASET=="AVISPA/TestCase/data/RNGN19co/") should contain a folder, which includes tree subfolders (train, validation, test). For training purposes only the "train" and "validation" set is required.
+2) Chosen model: MODEL="vgg16" (the list of available models is in the train.py under "parse_args():")
+3) The trained model (=it's weights) is stored in AVISPA/TestCase/classify/trained under the "MODEL_NAME"-folder. The weigh is stored under the .h5 file

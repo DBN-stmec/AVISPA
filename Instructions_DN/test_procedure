@@ -1,0 +1,22 @@
+#######################
+How testing works:
+#######################
+/home/duybao/SoSe21/AVISPA_May21/TestCase/train_test.sh
+------------------------------------------------
+What it does:
+First training the model by using the train.py, then testing by using process.py
+----------------------
+How it works:
+
+A lot of functions in train.py comes from util.py (example: "util.set_img_format()")
+
+Here all models-datasets combination are tested
+
+During testing phase:
+- The weight from the trained model (model_name.h5) from the AVISPA/TestCase/classify/trained are loaded. (Trough the "get_model_from_model_name()" of util.py. The foldername of the saved and trained model is the classification_model_name (example: classification_model_name=xception_RNGN19co)
+
+The results are written in the txt file of AVISPA_May21/TestCase/out/ folder
+Here example of the code: 
+(train output)...|tee /home/duybao/SoSe21/AVISPA_May21/TestCase/out/out_vgg16_RNGN19co_train.txt
+(train output) ...|tee /home/duybao/SoSe21/AVISPA_May21/TestCase/out/out_vgg16_RNGN19co_pred.txt
+
