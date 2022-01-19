@@ -1,3 +1,8 @@
+NOT ALL DATA IS HERE.
+Find full dataset for this "data"-folder on google drive of duybaonguyenn21@gmail.com
+
+
+
 Here are three dataset. Each of them includes a 'OK' and 'NOK' (= not ok) folders.
 'OK' include images labelled as fine
 'OK' include images labelled as broken
