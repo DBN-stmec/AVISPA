@@ -1,0 +1,30 @@
+I set up a new environment for the project, with the following packages (this is for anaconda & windows machine)
+create and activate environment
+conda install -c anaconda keras
+conda install -c anaconda matplotlib
+conda install -c anaconda seaborn
+conda install -c anaconda scikit-learn==0.19.1
+conda install -c anaconda tensorflow-estimator==2.1
+---------------------------------------------------------------------------------
+to double check, this please find my env-setup in …\Test_Case\Test_Case_setup
+---------------------------------------------------------------------------------
+for Linux-machine: 
+open …\Test_Case\train_classification.sh and change the data directory to your path.
+execute the shell file (using the correct environment)
+-----------------------------------------------------------------------------------
+for windows machine:
+I think pycharm is very convenient so I recommend it.
+
+set new environment as python interpreter in pycharm
+in pycharm run configuration
+add new python configuration
+set new environment as python interpreter 
+add parameters (change your path accordingly):
+	--model=inception_v3
+--data_dir=.../Test_Case/data
+--nb_epoch=1
+--model_name=inception_v3_testCase
+
+---------------------------------------------------------------------------
+running this I get the output as in …\Test_Case\Test_Case_output
+-----------------------------------------------------------------------------
