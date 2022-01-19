@@ -1,0 +1,50 @@
+Creating model...
+Class mode is binary
+20863529 params
+Warming up for 5 epochs
+1e-05
+Found 142 images belonging to 2 classes.
+Found 48 images belonging to 2 classes.
+Epoch 1/5
+
+1/4 [=====>........................] - ETA: 8s - loss: 0.6738 - accuracy: 0.5938
+2/4 [============>.................] - ETA: 3s - loss: 0.7078 - accuracy: 0.5435
+3/4 [===================>..........] - ETA: 2s - loss: 0.7046 - accuracy: 0.5256
+4/4 [==========================>...] - ETA: 0s - loss: 0.7044 - accuracy: 0.5000
+5/4 [=================================] - 11s 2s/step - loss: 0.7096 - accuracy: 0.4930 - val_loss: 0.8171 - val_accuracy: 0.3958
+Epoch 2/5
+
+1/4 [=====>........................] - ETA: 5s - loss: 0.7752 - accuracy: 0.3750
+2/4 [============>.................] - ETA: 2s - loss: 0.7477 - accuracy: 0.4130
+3/4 [===================>..........] - ETA: 1s - loss: 0.7303 - accuracy: 0.4487
+4/4 [==========================>...] - ETA: 0s - loss: 0.7185 - accuracy: 0.5000
+5/4 [=================================] - 9s 2s/step - loss: 0.7201 - accuracy: 0.5000 - val_loss: 0.9096 - val_accuracy: 0.4167
+Epoch 3/5
+
+1/4 [=====>........................] - ETA: 5s - loss: 0.6677 - accuracy: 0.6250
+2/4 [============>.................] - ETA: 3s - loss: 0.6647 - accuracy: 0.6094
+3/4 [===================>..........] - ETA: 2s - loss: 0.6696 - accuracy: 0.5938
+4/4 [==========================>...] - ETA: 0s - loss: 0.6904 - accuracy: 0.5636
+5/4 [=================================] - 9s 2s/step - loss: 0.6792 - accuracy: 0.5915 - val_loss: 0.7757 - val_accuracy: 0.4167
+Epoch 4/5
+
+1/4 [=====>........................] - ETA: 5s - loss: 0.7208 - accuracy: 0.4062
+2/4 [============>.................] - ETA: 3s - loss: 0.7162 - accuracy: 0.5000
+3/4 [===================>..........] - ETA: 2s - loss: 0.7165 - accuracy: 0.5104
+4/4 [==========================>...] - ETA: 0s - loss: 0.7131 - accuracy: 0.4922
+5/4 [=================================] - 9s 2s/step - loss: 0.7120 - accuracy: 0.4930 - val_loss: 0.8199 - val_accuracy: 0.4167
+Epoch 5/5
+
+1/4 [=====>........................] - ETA: 4s - loss: 0.6678 - accuracy: 0.6562
+2/4 [============>.................] - ETA: 2s - loss: 0.6901 - accuracy: 0.6087
+3/4 [===================>..........] - ETA: 1s - loss: 0.6980 - accuracy: 0.5000
+4/4 [==========================>...] - ETA: 0s - loss: 0.6972 - accuracy: 0.5182
+5/4 [=================================] - 9s 2s/step - loss: 0.6872 - accuracy: 0.5563 - val_loss: 0.7869 - val_accuracy: 0.4167
+Fine tuning
+Freezing 34 layers (135 total)
+1e-05
+Found 142 images belonging to 2 classes.
+Found 48 images belonging to 2 classes.
+Epoch 1/5
+
+1/4 [=====>........................] - ETA: 24s - loss: 0.7186 - accuracy: 0.4688

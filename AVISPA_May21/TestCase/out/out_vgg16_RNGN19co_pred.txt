@@ -1,0 +1,28 @@
+
+---------- SUMMARY ----------
+Total images: 50
+Classified objects: 50 (100%)
+Labels: ['OK', 'NOK']
+Dumped metrics to /home/duybao/SoSe21/AVISPA_May21/TestCase/classify/trained/vgg16_RNGN19co/metrics.dict
+Confusion matrix:
+[[24  1]
+ [ 9 16]]
+Accuracy: 0.80
+Precision: 0.94
+Recall: 0.64
+F1: 0.76
+Metrics per class:
+             precision    recall  f1-score   support
+
+         OK       0.73      0.96      0.83        25
+        NOK       0.94      0.64      0.76        25
+
+avg / total       0.83      0.80      0.79        50
+
+Average processing time: 167.0ms
+Average classification time: 156.0ms
+Average crop time: 0.0ms
+Frames per second: 6.1
+Time passed: 4.11s
+Time per frame: 0.1644s
+-----------------------------

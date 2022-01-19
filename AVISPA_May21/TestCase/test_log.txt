@@ -1,0 +1,28 @@
+
+---------- SUMMARY ----------
+Total images: 1096
+Classified objects: 1096 (100%)
+Labels: ['OK', 'NOK']
+Dumped metrics to /home/a.ziegenbein/Test_Case/classify/trained/inception_v3_kaggle_data/metrics.dict
+Confusion matrix:
+[[978   4]
+ [  1 113]]
+Accuracy: 1.00
+Precision: 0.97
+Recall: 0.99
+F1: 0.98
+Metrics per class:
+             precision    recall  f1-score   support
+
+         OK       1.00      1.00      1.00       982
+        NOK       0.97      0.99      0.98       114
+
+avg / total       1.00      1.00      1.00      1096
+
+Average processing time: 37.0ms
+Average classification time: 23.0ms
+Average crop time: 0.0ms
+Frames per second: 20.1
+Time passed: 5.68s
+Time per frame: 0.0498s
+-----------------------------

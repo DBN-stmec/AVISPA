@@ -1,0 +1,28 @@
+
+---------- SUMMARY ----------
+Total images: 145
+Classified objects: 145 (100%)
+Labels: ['OK', 'NOK']
+Dumped metrics to /home/a.ziegenbein/TestCase/classify/trained/vgg16_RNGN19cross/metrics.dict
+Confusion matrix:
+[[100   0]
+ [ 24  21]]
+Accuracy: 0.83
+Precision: 1.00
+Recall: 0.47
+F1: 0.64
+Metrics per class:
+             precision    recall  f1-score   support
+
+         OK       0.81      1.00      0.89       100
+        NOK       1.00      0.47      0.64        45
+
+avg / total       0.87      0.83      0.81       145
+
+Average processing time: 16.0ms
+Average classification time: 6.0ms
+Average crop time: 0.0ms
+Frames per second: 105.9
+Time passed: 0.42s
+Time per frame: 0.0094s
+-----------------------------

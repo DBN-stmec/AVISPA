@@ -1,0 +1,14 @@
+classification_ACTIVATED
+
+---------- SUMMARY ----------
+Total images: 1
+Classified objects: 1 (100%)
+Labels: ['OK', 'NOK']
+Result: [0, 1]
+Average processing time: 602.0ms
+Average classification time: 56.0ms
+Average crop time: 0.0ms
+Frames per second: 1.7
+Time passed: 0.60s
+Time per frame: 0.6040s
+-----------------------------

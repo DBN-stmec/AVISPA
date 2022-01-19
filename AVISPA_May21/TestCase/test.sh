@@ -1,0 +1,2 @@
+#!/bin/bash
+python3 process.py --source='/home/a.ziegenbein/TestCase/data/flaw_01_01_small' --skip_detection --classification_model=vgg16 --classification_model_name=vgg16_RNGN19cross --log_level="debug" |tee /home/a.ziegenbein/TestCase/out/out_vgg16_flaw_small_pred.txt
